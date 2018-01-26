@@ -51,8 +51,10 @@ else{
 
 ```java
 switch(expression){
-	case v1: // code break;
-	case v2: // code break;	
+	case v1: // code 
+	break;
+	case v2: // code 
+	break;	
 	default: // code
 }
 ```	
@@ -67,6 +69,7 @@ index based
 for(Datatype  d:DataStructure){
 	// code
 }
+```
 value based
 
 ## Java Socket Programming
