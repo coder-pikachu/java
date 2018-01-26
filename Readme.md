@@ -39,10 +39,10 @@ There are two data types available in Java
 
 ```java
 if(condition 1){
-	// code
+	--code--
 }
 else if(condition 2){
-	// code
+	--code--
 }
 else{
 	//code
@@ -51,30 +51,32 @@ else{
 
 ```java
 switch(expression){
-	case v1: // code 
+	case v1: --code-- 
 	break;
-	case v2: // code 
+	case v2: --code-- 
 	break;	
-	default: // code
+	default: --code--
 }
 ```	
 ## Looping 
 ```java
 for(initialisation; condition; update){
-	// code
+	--code--
 }
 ```
 index based
 ```java
 for(type  d:array){
-	// code
+	--code--
 }
 ```
 value based
 
 ```java
+initialisation;
 while(condition){
-	// code
+	--code--
+	update;
 }
 ```
 ## Java Socket Programming
