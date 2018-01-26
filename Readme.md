@@ -17,13 +17,31 @@
 ## This Keyword
 
 
+## Datatypes
+There are two data types available in Java 
+1. Primitive Data Types
+2. Reference/Object Data Types
+
+### Primary datatypes
+1. byte (1)
+2. short (2)
+3. int (4)
+4. long (8)
+5. float (4)
+6. double (8)
+7. boolean (bit ?)
+8. char (2)
+
+## Wrapper Classes
+
+
 ## Conditional 
 
 ```java
-if(condition){
+if(condition 1){
 	// code
 }
-else if(){
+else if(condition 2){
 	// code
 }
 else{
@@ -43,7 +61,6 @@ else{
 
 ## Unit Testing
 
-## Wrapper Classes
 
 ## Enums 
 
