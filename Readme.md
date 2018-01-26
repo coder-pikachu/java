@@ -16,9 +16,34 @@ class Name{
 where referenceField also has its own class structure.
 class at leaf level contains only **primaryFiels**  and no **referenceField**.
 
-## Input and Output 
+# File and I/O 
 
-## Scanner
+```java
+import java.io.*;
+```
+
+A stream can be defined as a sequence of data. There are two kinds of Streams
+
+1. InPutStream 
+2. OutPutStream
+
+## byte stream
+### FileInputStream
+[link](https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html)
+```java
+FileInputStream f=new FileInputStream("file.txt");
+while(x=f.read()!=-1){
+	--code--
+}
+```
+### FileOutputStream
+```java
+FileInputStream f=new FileInputStream("file.txt");
+f.write(character);
+```
+
+exceptions are not catched for understanding purpose.
+# Scanner
 
 ## File operation
 
