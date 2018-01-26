@@ -66,11 +66,16 @@ for(initialisation; condition; update){
 ```
 index based
 ```java
-for(Datatype  d:DataStructure){
+for(type  d:array){
 	// code
 }
 ```
 value based
+
+```java
+while(condition){
+	// code
+}
 
 ## Java Socket Programming
 
@@ -78,6 +83,19 @@ value based
 
 ## Strings
 
+```java
+import java.lang.String;
+```
+
+string is basically an object that represents sequence of char values. An array of characters works same as java string.
+```java
+char arr[]={'s','t','r','i','n','g'}
+String str=new String(arr);
+```
+or
+```java
+String str=new "string";
+```
 ## Threads
 
 ## Apache
