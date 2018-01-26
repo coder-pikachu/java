@@ -17,6 +17,20 @@
 ## This Keyword
 
 
+## Conditional 
+
+```
+if(condition){
+	// code
+}
+else if(){
+	// code
+}
+else{
+	//code
+}
+```
+
 ## Java Socket Programming
 
 ## Bufferreader
