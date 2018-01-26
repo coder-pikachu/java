@@ -49,6 +49,26 @@ else{
 }
 ```
 
+```java
+switch(expression){
+	case v1: // code break;
+	case v2: // code break;	
+	default: // code
+}
+```	
+## Looping 
+```java
+for(initialisation; condition; update){
+	// code
+}
+```
+index based
+```java
+for(Datatype  d:DataStructure){
+	// code
+}
+value based
+
 ## Java Socket Programming
 
 ## Bufferreader
