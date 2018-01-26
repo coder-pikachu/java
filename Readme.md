@@ -3,7 +3,7 @@
 ## Structure
 
 ```java
-class Name{
+class Test{
 	
 	primaryField p;
 	referenceFiels r;
@@ -13,6 +13,11 @@ class Name{
 	}
 }
 ```
+```java
+	object.method();
+```
+
+all the non static method recieve a self reference. So, we cannot use any non static field of the class inside a static member.
 where referenceField also has its own class structure.
 class at leaf level contains only **primaryFiels**  and no **referenceField**.
 
@@ -50,6 +55,42 @@ exceptions are not catched for understanding purpose.
 ## Big Integers
 
 ## Static keyword 
+
+### Static varaible
+static variable will get the memory only once, if any object changes the value of the static variable,it will retain its value.
+Static keyword comes before data type.
+[javatpoint](https://www.javatpoint.com/static-keyword-in-java)
+[geeksforgeeks](https://www.geeksforgeeks.org/static-keyword-java/)
+e.g.
+```java
+class Test{
+	static Point p=new Point(1,2);
+}
+```
+
+```java
+class Test{
+	static type method(){
+
+	}
+}
+```
+
+```java
+	Test.method();
+```
+
+```java
+```
+
+```java
+```
+
+
+
+
+### Java static method
+
 
 ## Super keyword
 
