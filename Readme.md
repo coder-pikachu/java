@@ -1,6 +1,22 @@
 ## compilation in Terminal 
 
-# Input and Output 
+## Structure
+
+```java
+class Name{
+	
+	primaryField p;
+	referenceFiels r;
+
+	methods(paramter){
+
+	}
+}
+```
+where referenceField also has its own class structure.
+class at leaf level contains only **primaryFiels**  and no **referenceField**.
+
+## Input and Output 
 
 ## Scanner
 
