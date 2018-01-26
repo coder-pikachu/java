@@ -19,7 +19,7 @@
 
 ## Conditional 
 
-```
+```java
 if(condition){
 	// code
 }
