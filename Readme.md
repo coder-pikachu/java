@@ -260,12 +260,13 @@ class  MyThread extends Thread{
 }
 
 class Test{
-    public static void main(String[] args){
-    	MyThread object = new MyThread();
-        object.start();
-    }
+	public static void main(String[] args){
+	MyThread object = new MyThread();
+		object.start();
+	}
 }
 ```
+
 **Thread creation by implementing the Runnable Interface**
 
 
