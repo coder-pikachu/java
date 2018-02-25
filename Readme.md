@@ -270,6 +270,7 @@ class Test{
 
 **Thread creation by implementing the Runnable Interface**
 ```java
+java.lang.Thread
 class  MyRunnable implements Runnable{
 	@override
 	public void run(){
