@@ -269,6 +269,23 @@ String str=new "string";
 
 ## constructors
 
+Things to Remember:
+1. if we write a constructor with arguments or no-argument then compiler does not create default constructor.
+2. unlike c++, default constructor in Java initializes member data variable to default values 
+3. unlike C++, Java doesn’t create a default copy constructor if you don’t write your own.
+3. Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
+4. A constructor in Java can not be abstract, final, static and Synchronized.
+
+Important topics:
+1. No-argument constructor
+2. Parameterized Constructor
+3. Constructor Overloading
+4. Copy Constructor
+5. Singleton class
+References:
+[GFG1](https://www.geeksforgeeks.org/constructors-in-java/)
+[GFG2](https://www.geeksforgeeks.org/copy-constructor-in-java/)
+
 ## Generic classes 
 
 ## Interfaces
@@ -338,11 +355,9 @@ References:
 [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 plus all the methods of vector class
 
-## Linkedlist 
+### Arrays
 
-## Arrays
-
-## Sets
+### Sets
 
 
 ## HashMaps
