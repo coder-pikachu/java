@@ -308,8 +308,8 @@ String str=new "string";
 Same as c++ list
 1. boolean add(Object element)  same as addLast only return boolean
 
-2. void add(int index, Object element) same as insert()
-3. void addFirst(Object element) same as push_front()
+2. void add(int index, Object element) |  same as insert()
+3. void addFirst(Object element) | same as push_front()
 4. void addLast(Object element) same as push_back()
 5. int size()  same as c++
 6. void clear() same as c++
