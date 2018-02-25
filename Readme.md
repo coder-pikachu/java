@@ -305,35 +305,33 @@ String str=new "string";
 [GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
 
 ### LinkedList
-Same as c++ list
-
 
 | Method | description |
 | --- | --- |
-| boolean add(E e) 		  		|  same as addLast only return boolean |
-| void add(int index, E s) 		|  same as insert()    				 |
-| void addFirst(E e) 	  		| same as push_front()                 |
-| void addLast(E element) 		| same as push_back()
-| int size() 					| same as c++
-| void clear() 					| same as c++
-| void removeFirst() same as pop_front()
-| void removeLast() same as pop_back()
-E getFirst() same as front()
-E getLast() same as bacck()
-Object get(int index)
-E indexOf(Object element)
-Object remove(int index) 
-
-[cpp list](http://www.cplusplus.com/reference/list/list/)
+| boolean add(E e) 		  		| same as addLast only return boolean 	|
+| void add(int index, E s) 		| same as insert()    				 	|
+| void addFirst(E e) 	  		| same as push_front()                 	|
+| void addLast(E element) 		| same as push_back()					|
+| int size() 					| same as c++							|
+| void clear() 					| same as c++							|
+| void removeFirst()			| same as pop_front()					|
+| void removeLast()				| same as pop_back()					|
+| E getFirst() 					| same as front()						|
+| E getLast() 					| same as bacck()						|
+| Object get(int index) 		|										|
+| E indexOf(Object element) 	|										|
+| Object remove(int index)		| 										|
+References :
+Same as [cpp list](http://www.cplusplus.com/reference/list/list/)
 ### Stack
-1. st.search() 	not available in c++
-2. st.peek()	same as c++ st.top()
-3. st.push()
-4. st.pop()
-5. st.empty()
+| st.search() 					| not available in c++					|
+| st.peek()						| same as c++ st.top()					|
+| st.push()						|										|
+| st.pop()						|										|
+| st.empty()					|										|
 References:
-[GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+[GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 plus all the methods of vector class
 
 ## Linkedlist 
