@@ -244,7 +244,29 @@ or
 ```java
 String str=new "string";
 ```
-## Threads
+## MultiThreading
+**java.lang.Thread**
+Threads can be created by using two mechanisms :
+1. Extending the Thread class
+2. Implementing the Runnable Interface
+
+**Thread creation by extending the Thread class**
+```java
+class  MyThread extends Thread{
+	@override
+    public void run(){
+    	--code--
+    }
+}
+
+class Test{
+    public static void main(String[] args){
+    	MyThread object = new MultithreadingDemo();
+        object.start();
+    }
+}
+```
+
 
 ## Apache
 
@@ -363,5 +385,5 @@ plus all the methods of vector class
 ### Sets
 
 
-## HashMaps
+### HashMaps
 
