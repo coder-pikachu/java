@@ -306,17 +306,18 @@ String str=new "string";
 
 ### LinkedList
 Same as c++ list
-1. boolean add(Object element)  same as addLast only return boolean
 
-2. void add(int index, Object element) |  same as insert()
-3. void addFirst(Object element) | same as push_front()
-4. void addLast(Object element) same as push_back()
-5. int size()  same as c++
-6. void clear() same as c++
-7. void removeFirst() same as pop_front()
-8. void removeLast() same as pop_back()
-9. E getFirst() same as front()
-10. E getLast() same as bacck()
+| boolean add(Object element) |  same as addLast only return boolean |
+
+| void add(int index, Object element) |  same as insert() |
+void addFirst(Object element) | same as push_front()
+void addLast(Object element) same as push_back()
+int size()  same as c++
+void clear() same as c++
+void removeFirst() same as pop_front()
+void removeLast() same as pop_back()
+E getFirst() same as front()
+E getLast() same as bacck()
 
 5. Object get(int index)
 6. E indexOf(Object element)
