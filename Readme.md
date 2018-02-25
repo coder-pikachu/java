@@ -330,6 +330,7 @@ Same as [cpp list](http://www.cplusplus.com/reference/list/list/)
 | st.push()						|										|
 | st.pop()						|										|
 | st.empty()					|										|
+
 References:
 [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
 [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
