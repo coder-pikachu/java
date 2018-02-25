@@ -308,6 +308,7 @@ String str=new "string";
 Same as c++ list
 
 | boolean add(Object element) |  same as addLast only return boolean |
+| --- | --- |
 
 | void add(int index, Object element) |  same as insert() |
 void addFirst(Object element) | same as push_front()
