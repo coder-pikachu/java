@@ -279,7 +279,7 @@ String str=new "string";
 
 ### Stack
 1. [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
-2. [JavaDoc)](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+2. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
 
 ## Linkedlist 
 
