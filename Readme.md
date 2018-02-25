@@ -310,8 +310,6 @@ Same as c++ list
 | 	  |  |
 | --- 								  | --- 														         |
 
-| void add(int index, Object element) |  same as insert()    				 |
-| void addFirst(Object element) 	  | same as push_front()                 |
 
 
 void addLast(Object element) same as push_back()
@@ -348,6 +346,9 @@ plus all the methods of vector class
 
 | boolean add(Object element) 	 |same as addLast only return boolean |
 | --- | --- | 
+
+| void add(int index, Object element) |  same as insert()    				 |
+| void addFirst(Object element) 	  | same as push_front()                 |
 | case 1 | int x=10; | int x=100; | error: multiple definition | error: multiple definition |
 | case 2 | extern int x=10; | int x=100; | error: multiple definition | error: multiple definition |
 | case 3 | extern int x; | int x=100; | 100 | 100 |
