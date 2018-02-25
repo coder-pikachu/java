@@ -275,7 +275,11 @@ String str=new "string";
 
 ## Abstract classes
 
-# Data Structures
+# Collections
+
+### Stack
+(GFG)(https://www.geeksforgeeks.org/stack-class-in-java/)
+(JavaDoc)[https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html]
 
 ## Linkedlist 
 
