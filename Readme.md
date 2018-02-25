@@ -230,7 +230,7 @@ while(condition){
 ## StringBuffer
 
 References:
-[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html)
+1. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html)
 
 
 ## Strings
@@ -259,7 +259,6 @@ String str=new "string";
 3. compareTo() method: It compares values lexicographically
 
 
-[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 | Method | description |
 | --- | --- |
@@ -277,6 +276,8 @@ String str=new "string";
 | static String	valueOf(double d)					|								|
 | String	trim()									|								|
 
+References:
+1. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 ## MultiThreading
 
@@ -356,8 +357,8 @@ Important topics:
 5. Singleton class
 
 References:
-[GFG1](https://www.geeksforgeeks.org/constructors-in-java/)
-[GFG2](https://www.geeksforgeeks.org/copy-constructor-in-java/)
+1. [GFG1](https://www.geeksforgeeks.org/constructors-in-java/)
+2. [GFG2](https://www.geeksforgeeks.org/copy-constructor-in-java/)
 
 ## Generic classes 
 
@@ -367,7 +368,8 @@ References:
 
 # Collections
 
-[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)
+References:
+1. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)
 
 
 
@@ -376,9 +378,7 @@ References:
 
 ```
 java.util.Vector;
-
 ```
-
 
 | Method | description |
 | --- | --- |
@@ -404,14 +404,15 @@ java.util.Vector;
 | object[] toArray()							|										|
 | int size()									|										|
 
-[GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
-[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html)
+
+References:
+1. [GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
+2. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html)
+
 ### LinkedList
 
 ```
-
 java.util.LinkedList;
-
 ```
 
 | Method | description |
@@ -433,10 +434,11 @@ java.util.LinkedList;
 References :
 1. [cpp list](http://www.cplusplus.com/reference/list/list/)
 2. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
+
 ### Stack
+
 ```
 java.util.Stack;
-
 ```
 
 | Method | description |
@@ -448,18 +450,18 @@ java.util.Stack;
 | st.empty()					|										|
 
 References:
-[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
-[GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
-plus all the methods of vector class
+1. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+2. [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 
 ### Sets
 
 
 ### Arrays
-```
-java.util.Arrays;
 
 ```
+java.util.Arrays;
+```
+
 | Method | description |
 | --- | --- |
 | static String	toString(int[] a)											|							|
