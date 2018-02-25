@@ -267,7 +267,7 @@ String str=new "string";
 
 ## Inner classes 
 
-## constructors
+## Constructors
 
 Things to Remember:
 1. if we write a constructor with arguments or no-argument then compiler does not create default constructor.
@@ -298,27 +298,29 @@ References:
 
 ### Vectors
 
-1. Vector()
-2. Vector(int size)
-3. Vector(Collection c)
-4. boolean add(Object obj)
-5. void add(int index, Object obj)
-6. boolean addAll(Collection c) 
-7. boolean addAll(int index, Collection c)
-8. void clear() 
-9. Object clone()
-10. boolean contains(Object o)
-11. Object get(int index)
-12. int indexOf(Object o)
-13. boolean isEmpty()
-14. int lastIndexOf(Object o)
-15. boolean remove(Object o)
-16. boolean equals(Object o) content comparison of two vectors
-17. Object firstElement()
-18. void trimToSize()
-19. String toString()
-20. object[] toArray()
-21. int size()
+| Method | description |
+| --- | --- |
+| Vector()										|										|
+| Vector(int size)								|										|
+| Vector(Collection c)							|										|
+| boolean add(Object obj)						|										|
+| void add(int index, Object obj)				|										|
+| boolean addAll(Collection c) 					|										|
+| boolean addAll(int index, Collection c)		|										|
+| void clear() 									|										|
+| Object clone()								|										|
+| boolean contains(Object o)					|										|
+| Object get(int index)							|										|
+| int indexOf(Object o)							|										|
+| boolean isEmpty()								|										|
+| int lastIndexOf(Object o)						|										|
+| boolean remove(Object o)						|										|
+| boolean equals(Object o) 						| content comparison of two vectors		|
+| Object firstElement()							|										|
+| void trimToSize()								|										|
+| String toString()								|										|
+| object[] toArray()							|										|
+| int size()									|										|
 
 [GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
 
