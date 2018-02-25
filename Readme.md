@@ -245,13 +245,14 @@ or
 String str=new "string";
 ```
 ## MultiThreading
-**java.lang.Thread**
+
 Threads can be created by using two mechanisms :
 1. Extending the Thread class
 2. Implementing the Runnable Interface
 
 **Thread creation by extending the Thread class**
 ```java
+**java.lang.Thread**
 class  MyThread extends Thread{
 	@override
 	public void run(){
