@@ -310,16 +310,14 @@ Same as c++ list
 
 | Method | description |
 | --- | --- |
-| boolean add(Object element) 		  |  same as addLast only return boolean |
-| void add(int index, Object element) |  same as insert()    				 |
-| void addFirst(Object element) 	  | same as push_front()                 |
-
-
-void addLast(Object element) same as push_back()
-int size()  same as c++
-void clear() same as c++
-void removeFirst() same as pop_front()
-void removeLast() same as pop_back()
+| boolean add(E e) 		  		|  same as addLast only return boolean |
+| void add(int index, E s) 		|  same as insert()    				 |
+| void addFirst(E e) 	  		| same as push_front()                 |
+| void addLast(E element) 		| same as push_back()
+| int size() 					| same as c++
+| void clear() 					| same as c++
+| void removeFirst() same as pop_front()
+| void removeLast() same as pop_back()
 E getFirst() same as front()
 E getLast() same as bacck()
 Object get(int index)
