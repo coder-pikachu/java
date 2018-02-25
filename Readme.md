@@ -227,23 +227,57 @@ while(condition){
 ```
 ## Java Socket Programming
 
-## Bufferreader
+## StringBuffer
+
+References:
+[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html)
+
 
 ## Strings
+
+Things to remember
+1.  it first check that if given String constant is present in String pooled area or not. If it present then str will point to it, 
 
 ```java
 import java.lang.String;
 ```
 
 string is basically an object that represents sequence of char values. An array of characters works same as java string.
+**Object Initialization (Dynamic)**
 ```java
 char arr[]={'s','t','r','i','n','g'}
 String str=new String(arr);
 ```
 or
+**Direct Initialization(String Constant)**
 ```java
 String str=new "string";
 ```
+**Comparing Strings and their References**
+1. equals() method: It compares values of string for equality.
+2. == operator: It compares references not values. 
+3. compareTo() method: It compares values lexicographically
+
+
+[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
+| Method | description |
+| --- | --- |
+| char	charAt(int index)							|								|
+| int	length()									|								|
+| int	compareTo(String anotherString)				|								|
+| int	compareToIgnoreCase(String str)				|								|
+| String	concat(String str)						|								|
+| boolean	contains(CharSequence s)				|								|
+| int	hashCode()									|								|
+| int	lastIndexOf(int ch)							|								|
+| String	substring(int beginIndex)				|								|
+| char[]	toCharArray()							|								|
+| String	toUpperCase()							|								|
+| static String	valueOf(double d)					|								|
+| String	trim()									|								|
+
+
 ## MultiThreading
 
 Threads can be created by using two mechanisms :
@@ -285,7 +319,6 @@ class Test{
 	}
 }
 ```
-## Apache
 
 ## Unit Testing
 
@@ -334,8 +367,18 @@ References:
 
 # Collections
 
+[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html)
+
+
+
 
 ### Vectors
+
+```
+java.util.Vector;
+
+```
+
 
 | Method | description |
 | --- | --- |
@@ -362,8 +405,14 @@ References:
 | int size()									|										|
 
 [GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
-
+[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html)
 ### LinkedList
+
+```
+
+java.util.LinkedList;
+
+```
 
 | Method | description |
 | --- | --- |
@@ -382,8 +431,14 @@ References:
 | Object remove(int index)		| 										|
 
 References :
-Same as [cpp list](http://www.cplusplus.com/reference/list/list/)
+1. [cpp list](http://www.cplusplus.com/reference/list/list/)
+2. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
 ### Stack
+```
+java.util.Stack;
+
+```
+
 | Method | description |
 | --- | --- |
 | st.search() 					| not available in c++					|
@@ -397,10 +452,38 @@ References:
 [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 plus all the methods of vector class
 
-### Arrays
-
 ### Sets
 
 
+### Arrays
+```
+java.util.Arrays;
+
+```
+| static String	toString(int[] a)											|							|
+| static void	sort(int[] a)												|							|
+| static void	sort(int[] a, int fromIndex, int toIndex)					|							|
+| static <T> void	sort(T[] a, Comparator<? super T> c)					|							|
+| static int	hashCode(int[] a)											|							|
+| static void	fill(int[] a, int val)										|							|
+| static void	fill(int[] a, int fromIndex, int toIndex, int val)			|							|
+| static int	binarySearch(int[] a, int key)								|							|
+| static int	binarySearch(int[] a, int fromIndex, int toIndex, int key)	|							|
+| static <T> int	binarySearch(T[] a, T key, Comparator<? super T> c)		|							|
+| static boolean	equals(int[] a, int[] a2)								|							|
+| static <T> List<T>	asList(T... a)										|							|
+
+[GFG](https://www.geeksforgeeks.org/array-class-in-java/)
+ 
+
+References:
+[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html)
+
+
+
 ### HashMaps
+
+
+## Math
+[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/lang/Math.html)
 
