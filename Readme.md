@@ -475,11 +475,9 @@ java.util.Arrays;
 | static boolean	equals(int[] a, int[] a2)								|							|
 | static <T> List<T>	asList(T... a)										|							|
 
-[GFG](https://www.geeksforgeeks.org/array-class-in-java/)
- 
-
 References:
-[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html)
+1. [GFG](https://www.geeksforgeeks.org/array-class-in-java/)
+2. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html)
 
 
 
@@ -487,5 +485,11 @@ References:
 
 
 ## Math
-[Javadoc](https://docs.oracle.com/javase/7/docs/api/java/lang/Math.html)
+
+```
+java.lang.Math
+```
+
+References:
+1. [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/lang/Math.html)
 
