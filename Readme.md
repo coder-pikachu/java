@@ -311,7 +311,9 @@ Same as c++ list
 | --- | --- |
 
 | void add(int index, Object element) |  same as insert() |
-void addFirst(Object element) | same as push_front()
+| void addFirst(Object element) | same as push_front() |
+
+
 void addLast(Object element) same as push_back()
 int size()  same as c++
 void clear() same as c++
