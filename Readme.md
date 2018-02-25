@@ -252,7 +252,7 @@ Threads can be created by using two mechanisms :
 
 **Thread creation by extending the Thread class**
 ```java
-**java.lang.Thread**
+java.lang.Thread
 class  MyThread extends Thread{
 	@override
 	public void run(){
