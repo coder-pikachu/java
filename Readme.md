@@ -321,6 +321,7 @@ String str=new "string";
 | Object get(int index) 		|										|
 | E indexOf(Object element) 	|										|
 | Object remove(int index)		| 										|
+
 References :
 Same as [cpp list](http://www.cplusplus.com/reference/list/list/)
 ### Stack
