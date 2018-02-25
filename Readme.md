@@ -307,7 +307,7 @@ String str=new "string";
 ### LinkedList
 Same as c++ list
 
-| boolean add(Object element) 		  |  same as addLast only return boolean |
+| 	  |  |
 | --- 								  | --- 														         |
 
 | void add(int index, Object element) |  same as insert()    				 |
@@ -346,8 +346,8 @@ plus all the methods of vector class
 
 ## HashMaps
 
-| case |file 1 | file 2 | output file 1 | output file 2 |
-| --- | --- | --- | --- | --- |
+| boolean add(Object element) 	 |same as addLast only return boolean |
+| --- | --- | 
 | case 1 | int x=10; | int x=100; | error: multiple definition | error: multiple definition |
 | case 2 | extern int x=10; | int x=100; | error: multiple definition | error: multiple definition |
 | case 3 | extern int x; | int x=100; | 100 | 100 |
