@@ -269,8 +269,21 @@ class Test{
 ```
 
 **Thread creation by implementing the Runnable Interface**
+```java
+class  MyRunnable implements Runnable{
+	@override
+	public void run(){
+		--code--
+	}
+}
 
-
+class Test{
+	public static void main(String[] args){
+	Thread object = new Thread(new MyRunnable());
+		object.start();
+	}
+}
+``
 ## Apache
 
 ## Unit Testing
