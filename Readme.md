@@ -325,6 +325,8 @@ String str=new "string";
 References :
 Same as [cpp list](http://www.cplusplus.com/reference/list/list/)
 ### Stack
+| Method | description |
+| --- | --- |
 | st.search() 					| not available in c++					|
 | st.peek()						| same as c++ st.top()					|
 | st.push()						|										|
