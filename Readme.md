@@ -277,11 +277,64 @@ String str=new "string";
 
 # Collections
 
+
+### Vectors
+
+1. Vector()
+2. Vector(int size)
+3. Vector(Collection c)
+4. boolean add(Object obj)
+5. void add(int index, Object obj)
+6. boolean addAll(Collection c) 
+7. boolean addAll(int index, Collection c)
+8. void clear() 
+9. Object clone()
+10. boolean contains(Object o)
+11. Object get(int index)
+12. int indexOf(Object o)
+13. boolean isEmpty()
+14. int lastIndexOf(Object o)
+15. boolean remove(Object o)
+16. boolean equals(Object o) content comparison of two vectors
+17. Object firstElement()
+18. void trimToSize()
+19. String toString()
+20. object[] toArray()
+21. int size()
+
+[GFG](https://www.geeksforgeeks.org/java-util-vector-class-java/)
+
+### LinkedList
+Same as c++ list
+1. boolean add(Object element)  same as addLast only return boolean
+
+2. void add(int index, Object element) same as insert()
+3. void addFirst(Object element) same as push_front()
+4. void addLast(Object element) same as push_back()
+5. int size()  same as c++
+6. void clear() same as c++
+7. void removeFirst() same as pop_front()
+8. void removeLast() same as pop_back()
+9. E getFirst() same as front()
+10. E getLast() same as bacck()
+
+5. Object get(int index)
+6. E indexOf(Object element)
+
+7. Object remove(int index) 
+
+[cpp list](http://www.cplusplus.com/reference/list/list/)
 ### Stack
-1. [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
-2. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
-c++ stack does not have serach() method but java stack() has a search method.
-c++ stack top() is same as java stack peek()
+1. st.search() 	not available in c++
+2. st.peek()	same as c++ st.top()
+3. st.push()
+4. st.pop()
+5. st.empty()
+References:
+[GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
+[JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+plus all the methods of vector class
+
 ## Linkedlist 
 
 ## Arrays
