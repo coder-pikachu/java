@@ -266,6 +266,7 @@ class Test{
     }
 }
 ```
+**Thread creation by implementing the Runnable Interface**
 
 
 ## Apache
