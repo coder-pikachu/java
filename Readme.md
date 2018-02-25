@@ -307,11 +307,6 @@ String str=new "string";
 ### LinkedList
 Same as c++ list
 
-| boolean add(Object element) 		  |  same as addLast only return boolean |
-| --- 								  | --- 														         |
-
-| void add(int index, Object element) |  same as insert()    				 |
-| void addFirst(Object element) 	  | same as push_front()                 |
 
 
 void addLast(Object element) same as push_back()
@@ -346,4 +341,10 @@ plus all the methods of vector class
 
 ## HashMaps
 
+
+| boolean add(Object element) 		  |  same as addLast only return boolean |
+| --- 								  | --- 														         |
+
+| void add(int index, Object element) |  same as insert()    				 |
+| void addFirst(Object element) 	  | same as push_front()                 |
 
