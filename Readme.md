@@ -280,7 +280,8 @@ String str=new "string";
 ### Stack
 1. [GFG](https://www.geeksforgeeks.org/stack-class-in-java/)
 2. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
-
+c++ stack does not have serach() method but java stack() has a search method.
+c++ stack top() is same as java stack peek()
 ## Linkedlist 
 
 ## Arrays
