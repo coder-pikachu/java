@@ -261,7 +261,7 @@ class  MyThread extends Thread{
 
 class Test{
     public static void main(String[] args){
-    	MyThread object = new MultithreadingDemo();
+    	MyThread object = new MyThread();
         object.start();
     }
 }
