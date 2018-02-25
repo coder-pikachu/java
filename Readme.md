@@ -307,11 +307,11 @@ String str=new "string";
 ### LinkedList
 Same as c++ list
 
-| boolean add(Object element) |  same as addLast only return boolean |
-| --- | --- |
+| boolean add(Object element) 		  |  same as addLast only return boolean |
+| --- 								  | --- 														         |
 
-| void add(int index, Object element) |  same as insert() |
-| void addFirst(Object element) | same as push_front() |
+| void add(int index, Object element) |  same as insert()    				 |
+| void addFirst(Object element) 	  | same as push_front()                 |
 
 
 void addLast(Object element) same as push_back()
@@ -321,11 +321,9 @@ void removeFirst() same as pop_front()
 void removeLast() same as pop_back()
 E getFirst() same as front()
 E getLast() same as bacck()
-
-5. Object get(int index)
-6. E indexOf(Object element)
-
-7. Object remove(int index) 
+Object get(int index)
+E indexOf(Object element)
+Object remove(int index) 
 
 [cpp list](http://www.cplusplus.com/reference/list/list/)
 ### Stack
