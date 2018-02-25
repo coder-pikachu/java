@@ -460,6 +460,8 @@ plus all the methods of vector class
 java.util.Arrays;
 
 ```
+| Method | description |
+| --- | --- |
 | static String	toString(int[] a)											|							|
 | static void	sort(int[] a)												|							|
 | static void	sort(int[] a, int fromIndex, int toIndex)					|							|
